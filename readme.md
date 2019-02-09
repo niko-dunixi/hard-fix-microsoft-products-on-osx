@@ -1,6 +1,6 @@
 # Regularly restarts Microsoft products on OSX
 
-I frequently run into problems with runing both Microsoft Outlook and Microsoft Teams on my Macbook for extended periods of time. This hasn't been just a one-off issue that occurred on one machine one time. It's frequently an issue for me. Since I work remote at times, it is imperative that I remain reachable when I'm needed.
+I frequently run into problems with runing both Microsoft Outlook and Microsoft Teams on my Macbook for extended periods of time. This hasn't been just a one-off issue that occurred on one machine only one time. It's frequently an issue for me. Since I work remote at times, and even when in office it's the main way we communicate with each other, it is imperative that I remain reachable when I'm needed.
 
 * Microsoft Outlook
   * After being open for long periods of time, it stops syncing. Manually navigating to the 'Send & Receive' button should work, but it doesn't. I've had a number of times where even _some_ messages get through, but not others and the issue is only remedied by restarting.
