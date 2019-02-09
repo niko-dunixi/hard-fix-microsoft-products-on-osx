@@ -12,6 +12,6 @@ In short, work critical applications are regularly unreliable. Since I have a ve
 
 ## How it works
 1. First thing it does is utilize a one-line apple script to stop the app. This is the most graceful way to close a GUI application on OSX. `osascript -e "quit app \"${app_name}\"` tells macOS to close an app in essentially the same way you would if you'd chosen Quit from the drop down menu.
-2. Second we wait for the app to close with pgrep. This lets us wait for the app to close (which might sometimes take longer or shorter, depending on latent variables).
+2. Second we wait for the app to close with `while pgrep "${app_name}" >/dev/null`. This lets us wait for the app to close (which might sometimes take longer or shorter, depending on latent variables).
     * If we end up waiting more than 5 seconds to exit, we force kill the application with `pkill -3 "${app_name}"`
 3. Restart the same application. Giving it a clean state that is not un-responsive. You can start a GUI application from the command line with the `open -a "${app_name}"` command.
