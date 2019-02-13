@@ -7,5 +7,5 @@
 # │ │ │ │ │
 # │ │ │ │ │
 # * * * * * command to execute
-40 8 * * * sh -c /Users/paul.baker/projects/personal/osx-microsoft-integration-sucks/restart-crap-apps.sh > /dev/null
-10 17 * * * sh -c /Users/paul.baker/projects/personal/osx-microsoft-integration-sucks/restart-crap-apps.sh > /dev/null
+40 8 * * * sh -c FULL_PATH_TO_SCRIPT/restart-crap-apps.sh > /dev/null
+10 17 * * * sh -c FULL_PATH_TO_SCRIPT/restart-crap-apps.sh > /dev/null
