@@ -1,7 +1,7 @@
 # Regularly restarts Microsoft products on OSX
 
 ## Replaced!
-I've replaced this shellscript with a Go version, which is more stable and faster. It can be found in [pauls-toolbox](https://www.github.com/paul-nelson-baker/pauls-toolbox)
+I've replaced this shellscript with a Go version, which is more stable and faster. It can be found in [daily-hard-reset](https://github.com/paul-nelson-baker/daily-hard-reset)
 
 ## What and Why
 I frequently run into problems with runing both Microsoft Outlook and Microsoft Teams on my Macbook for extended periods of time. This hasn't been just a one-off issue that occurred on one machine only one time. It's frequently an issue for me. Since I work remote at times, and even when in office it's the main way we communicate with each other, it is imperative that I remain reachable when I'm needed.
